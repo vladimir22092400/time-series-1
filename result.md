@@ -1,5 +1,5 @@
-|                                          | transformations |  initial p-value  | result p-value |
-|:------------------------------------------------------------:|:---------------:|:-----------------:|:--------------:|
+|                                          | transformations |  initial p-value  | result p-value | shapiro p_value | normaltest p_value |
+|:------------------------------------------------------------:|:---------------:|:-----------------:|:--------------:|:--------------:|:--------------:|
 | Daily total female births in California | [np.diff(offset=1)]  | 0.881363  | 0.885326 |     0.828834   |
 | International airline passengers: monthly totals in thousands | [boxcox, np.diff(offset=1), np.diff(offset=12)]  | 0.881363  | 0.885326 |     0.828834   |
 | Mean monthly air temperature (Deg. F) Nottingham Castle | [boxcox, np.diff(offset=1), np.diff(offset=12)]  | 0.881363  | 0.885326 |     0.828834   |
