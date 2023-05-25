@@ -1,0 +1,7 @@
+,transformations,initial adfuller p-value,result adfuller p-value,shapiro p_value,normaltest p_value
+Daily total female births in California,['np.diff(lag=1)'],5.2434129901498554e-05,1.5472400091968453e-23,0.23546,0.61191
+International airline passengers: monthly totals in thousands,"['boxcox', 'np.diff(lag=1)', 'np.diff(lag=12)']",0.991880243437641,0.00024859123113838495,0.04918,0.07974
+Mean monthly air temperature (Deg. F) Nottingham Castle,"['boxcox', 'np.diff(lag=1)', 'np.diff(lag=12)']",0.016989030222608604,1.6407281304676633e-22,0.25286,0.68924
+Monthly Boston armed robberies,"['boxcox', 'np.diff(lag=1)']",0.994277563805723,2.3786024417437596e-11,0.12342,0.68847
+Monthly sales of company X,"['boxcox', 'np.diff(lag=1)', 'np.diff(lag=1)']",0.9888894205170052,4.164137050220395e-10,0.53576,0.77516
+Weekly closings of the Dow-Jones industrial average,['np.diff(lag=1)'],0.6224548515589733,2.4075864037417794e-24,0.92912,0.87778
